@@ -14,12 +14,13 @@ const degree = "B.Com. Semester - 1 (December - 2022)";
         args: ["--start-maximized"]
     });
     try {
-        
+
     } catch (error) {
         console.log(error)
     }
     try {
         const [page] = await browser.pages();
+        page.setDefaultTimeout(60000);
         await page.goto("https://sggu.gipl.in/Welcome.aspx");
 
         // Click on "View Student Result"
