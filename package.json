@@ -11,7 +11,9 @@
   "description": "",
   "dependencies": {
     "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongodb": "^6.12.0",
     "mongoose": "^8.9.2",
     "puppeteer": "^23.11.1"
   }

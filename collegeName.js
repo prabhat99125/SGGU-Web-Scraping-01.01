@@ -62,7 +62,9 @@ const collegeName = (setNO) => {
 
     } else if (setNO >= 1858 && setNO <= 1965) {
         return "The SNSB Commerce College,Sankheda"
-
+ 
+    } else {
+        return ""
     }
 }
 module.exports = collegeName;
